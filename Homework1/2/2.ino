@@ -18,7 +18,7 @@ void loop() {
   
   if (buttonWasUp && !buttonIsUp) {
 
-    delay(10);
+    delay(10);еу
     buttonIsUp = digitalRead(A1);
 
     if (!buttonIsUp) {
